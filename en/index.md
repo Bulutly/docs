@@ -10,7 +10,7 @@ hero:
   text: ""
   tagline: More engineered, lightweight, customizable, standard output format Commitizen adapter and CLI.
   image:
-    src: /images/trader 4-H.svg
+    src: /images/Bulutly-H.svg
 
     alt: Bulutly Docs
 

@@ -10,7 +10,7 @@ hero:
   text: ""
   tagline: More engineered, lightweight, customizable, standard output format Commitizen adapter and API.
   image:
-    src: /images/trader 4-H.svg
+    src: /images/Bulutly-H.svg
     alt: Bulutly Docs
   actions:
     - theme: brand
