@@ -1,0 +1,22 @@
+name: "sample"
+replicaCount: 1
+
+ingressController: nginx
+
+service:
+  type: ClusterIP
+
+domainName: "docs.bulutly.net"
+
+tls:
+  enabled: false
+  clusterIssuer: cf-letsencrypt
+  secretName: docs-bulutly-net-wildcard-tls
+
+image:
+  repository: "bulutly.{{ .Values.name }}-docs"
+  pullPolicy: Always
+  tag: latest
+
+resources: {}
+tolerations: {}
