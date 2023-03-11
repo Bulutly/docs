@@ -1,12 +1,12 @@
 apiVersion: v2
 appVersion: 0.0.1
-name: traderfour-docs
+name: bulutly-docs
 version: 0.0.1
-description: A helm chart for traderfour docs project
-home: https://gitlab.com/traderfour/docs
+description: A helm chart for bulutly docs project
+home: https://github.com/bulutly/docs
 maintainers:
 - name: Alireza Josheghani
   url: https://github.com/mrjosh
 sources:
-- https://gitlab.com/traderfour/docs
+- https://github.com/bulutly/docs
 type: application
