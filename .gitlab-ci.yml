@@ -29,7 +29,7 @@ deploy:
   script:
     - helm upgrade --install 
       "${CI_PROJECT_NAME}.production"
-      --namespace docs
+      --namespace bulutly-docs
       --set name="docs-prod"
       --set domainName="docs.bulutly.net"
       --set image.repository="${IMG_NAME}"
@@ -51,7 +51,7 @@ deploy_next:
   script:
     - helm upgrade --install 
       "${CI_PROJECT_NAME}.next"
-      --namespace docs
+      --namespace bulutly-docs
       --set name="docs-next"
       --set domainName="next-docs.bulutly.net"
       --set image.repository="${IMG_NAME}"
